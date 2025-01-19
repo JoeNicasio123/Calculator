@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             String secondNumberString = secondNumber.getText().toString();
             double num2 = Double.parseDouble(secondNumberString);
 
-            double divisionSum = num1 + num2;
+            double divisionSum = num1 / num2;
 
             answer.setText(String.format("%.2f", divisionSum));
         });
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             String secondNumberString = secondNumber.getText().toString();
             double num2 = Double.parseDouble(secondNumberString);
 
-            double multiSum = num1 + num2;
+            double multiSum = num1 * num2;
 
             answer.setText(String.format("%.2f", multiSum));
         });
