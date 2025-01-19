@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="answer">Answer</string>
+    <string name="firstNumber">1st number</string>
+    <string name="secondNumber">2nd number</string>
+    <string name="addButton">+</string>
+    <string name="subButton">-</string>
+    <string name="multiButton">x</string>
+    <string name="divButton">/</string>
 </resources>
