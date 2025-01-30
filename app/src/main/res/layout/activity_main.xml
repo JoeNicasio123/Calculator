@@ -23,9 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="184dp"
+        android:autofillHints=""
         android:ems="8"
         android:hint="@string/firstNumber"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/answer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.057"
@@ -36,9 +37,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="184dp"
+        android:autofillHints=""
         android:ems="8"
         android:hint="@string/secondNumber"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/answer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.737"
@@ -73,7 +75,7 @@
         android:text="@string/multiButton"
         app:layout_constraintBottom_toTopOf="@+id/answer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toEndOf="@+id/subButton"
         app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
 
@@ -84,7 +86,7 @@
         android:text="@string/divButton"
         app:layout_constraintBottom_toTopOf="@+id/answer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toEndOf="@+id/multiButton"
         app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
 
